@@ -2,12 +2,31 @@
 Theme Name: DeCSS
 Author: TheZeeck
 Author URI: decss.com.mx
-Version: 0.1
+Version: 0.2
 */
 html,
 body {
   font-size: 14px;
   margin: 0;
+}
+
+button,
+input[type="submit"],
+.button {
+  border: 1px solid #666;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #666;
+}
+
+button:hover,
+input[type="submit"]:hover,
+.button:hover {
+  border-color: #fff;
+  background-color: #666;
+  color: #fff;
 }
 
 header {
@@ -35,6 +54,7 @@ header {
 .brand-name {
   display: inline-block;
   margin: 16px;
+  height: 58px;
 }
 
 .brand-name h1 {
@@ -46,6 +66,23 @@ header {
 }
 
 .custom-logo {
+  width: auto;
+  height: 100%;
+  max-height: 58px;
+}
+
+.header-search {
+  display: inline-block;
+  float: right;
+  margin: 16px;
+}
+
+.header-search .popup-nav {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
-  height: auto;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.7);
 }

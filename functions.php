@@ -411,6 +411,7 @@
       }
       button:hover,
       input[type="submit"]:hover {
+        border-color: <?php echo get_theme_mod('btn_color'); ?>;
         background-color: <?php echo get_theme_mod('btn_text_color'); ?>;
         color: <?php echo get_theme_mod('btn_color'); ?>;
       }
