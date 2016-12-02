@@ -1,0 +1,51 @@
+/*
+Theme Name: DeCSS
+Author: TheZeeck
+Author URI: decss.com.mx
+Version: 0.1
+*/
+html,
+body {
+  font-size: 14px;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  min-height: 90px;
+}
+
+.hero-image {
+  margin: 0;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.header-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.brand-name {
+  display: inline-block;
+  margin: 16px;
+}
+
+.brand-name h1 {
+  margin: 0;
+}
+
+.custom-logo-link {
+  display: inline-block;
+}
+
+.custom-logo {
+  width: 100%;
+  height: auto;
+}
