@@ -71,6 +71,17 @@ header {
   max-height: 58px;
 }
 
+.description-area {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  left: 25%;
+  min-height: 51px;
+  width: 50%;
+  margin: -25px 0 0;
+  text-align: center;
+}
+
 .header-search {
   display: inline-block;
   float: right;

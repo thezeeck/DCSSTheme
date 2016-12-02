@@ -36,8 +36,8 @@
               );
             ?>
           </nav>
-          <section class="description-area">
-            <?php bloginfo( "description" ); ?>
-          </section>
         </div>
+        <section class="description-area">
+          <?php bloginfo( "description" ); ?>
+        </section>
       </header>
